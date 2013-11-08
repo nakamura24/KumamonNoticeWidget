@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/notice_allday_CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notice_allday" />
+
+    <RelativeLayout
+        android:id="@+id/notice_priod_RelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notice_allday_CheckBox"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/notice_priod_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/notice_priod" />
+
+        <EditText
+            android:id="@+id/notice_priod_EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/notice_priod_TextView"
+            android:inputType="number" >
+        </EditText>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notice_priod_RelativeLayout"
+        android:layout_centerHorizontal="true"
+        android:onClick="onOKButtonClick"
+        android:text="@string/common_OKButton" />
+
+</RelativeLayout>
