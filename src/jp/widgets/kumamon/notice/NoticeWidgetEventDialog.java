@@ -53,7 +53,7 @@ public class NoticeWidgetEventDialog extends Activity {
 				if (NoticeWidgetService.mCalendarEvent.mEvents.get(position).all_day == 0) {
 					SimpleDateFormat sdf1 = new SimpleDateFormat(
 							"MM/d(EEE) H:mm", Locale.JAPANESE);
-					SimpleDateFormat sdf2 = new SimpleDateFormat("?曰:mm",
+					SimpleDateFormat sdf2 = new SimpleDateFormat("-H:mm",
 							Locale.JAPANESE);
 					notice_date_TextView.setText(sdf1.format(new Date(
 							NoticeWidgetService.mCalendarEvent.mEvents
