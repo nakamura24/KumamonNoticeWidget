@@ -7,9 +7,9 @@
     <string name="notice_empty_title_message">予定はなかモン</string>
     <string name="notice_allday">当日の予定を全て表示</string>
     <string name="notice_priod">表示する期間(日)</string>
-    <string name="notice_date">日時</string>
-    <string name="notice_location">場所</string>
-    <string name="notice_description">詳細</string>
+    <string name="notice_date">日時:</string>
+    <string name="notice_location">場所:</string>
+    <string name="notice_description">詳細:</string>
     <string name="notice_google_account"/>
 
 </resources>
